@@ -141,3 +141,6 @@ a { text-decoration: none; }
 }
 
 @media (max-width: 420px) { .auth-links { gap:8px; }.auth-links button:first-child { display:none; }.hero h1 { font-size:39px; }.hero-actions { flex-direction:column; width:100%; }.primary-btn,.secondary-btn { width:100%; }.footer-main { grid-template-columns:1fr; }.footer-brand { grid-column:auto; } }
+ html {
+    overflow-x: hidden;
+  }
