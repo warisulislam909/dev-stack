@@ -8,6 +8,12 @@ import App from './App'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
-    <ToastContainer position="top-right" autoClose={2200} newestOnTop theme="light" />
+    <ToastContainer
+  position="top-right"
+  autoClose={2200}
+  newestOnTop
+  closeOnClick
+  theme="light"
+/>
   </StrictMode>,
 )
